@@ -1,0 +1,140 @@
+{
+  "game": {
+    "players": 4,
+    "board_size": 11,
+    "board_type": "endless",
+    "dice_number": 2,
+    "initial_player_points": 200,
+    "rounds": 30
+  },
+  "tiles": [
+    {
+      "index": 0,
+      "stat": "start",
+      "parameter": "points",
+      "value": 200
+    },
+    {
+      "index": 1,
+      "stat": "red",
+      "parameter": "tile",
+      "value": 4
+    },
+    {
+      "index": 2,
+      "stat": "card",
+      "parameter": "card",
+      "value": 0
+    },
+    {
+      "index": 3,
+      "stat": "orange",
+      "parameter": "points",
+      "value": 20
+    },
+    {
+      "index": 4,
+      "stat": "cyan",
+      "parameter": "points",
+      "value": -40
+    },
+    {
+      "index": 5,
+      "stat": "black",
+      "parameter": "points",
+      "value": 50
+    },
+    {
+      "index": 6,
+      "stat": "blank",
+      "parameter": "none",
+      "value": 0
+    },
+    {
+      "index": 7,
+      "stat": "green",
+      "parameter": "tile",
+      "value": -7
+    },
+    {
+      "index": 8,
+      "stat": "gray",
+      "parameter": "dicepoints",
+      "value": 10
+    },
+    {
+      "index": 9,
+      "value": -2,
+      "parameter": "simple"
+    },
+    {
+      "index": 10,
+      "value": 0,
+      "parameter": "simple"
+    }
+  ],
+  "cards": [
+    {
+      "id": 0,
+      "message": "You get +100 points from another player.",
+      "parameter": "steal_points",
+      "value": 100
+    },
+    {
+      "id": 1,
+      "message": "Go to the start.",
+      "parameter": "start",
+      "value": 200
+    },
+    {
+      "id": 2,
+      "message": "You lose -150 points.",
+      "parameter": "points",
+      "value": -150
+    },
+    {
+      "id": 3,
+      "message": "Change your position with the player who has the minimum amount of points.",
+      "parameter": "min_points_tile",
+      "value": 0
+    },
+    {
+      "id": 4,
+      "message": "Change your position with the player who has the maximum amount of points.",
+      "parameter": "max_points_tile",
+      "value": 0
+    },
+    {
+      "id": 5,
+      "message": "Double your points.",
+      "parameter": "mul_points",
+      "value": 2
+    },
+    {
+      "id": 6,
+      "message": "Make your points half.",
+      "parameter": "div_points",
+      "value": 2
+    }
+  ],
+  "rules": [
+    {
+      "rule": "Rule 1: All players start with 200 points."
+    },
+    {
+      "rule": "Rule 2: Gameplay ends after 30 rounds."
+    },
+    {
+      "rule": "Rule 3: The winner is whoever has maximum amount of points out of all the players."
+    },
+    {
+      "rule": "Rule 4: The starting tile gives +200 points whenever the players passes it."
+    },
+    {
+      "rule": "Rule 5: If a player loses all their points, they get eliminated from the game."
+    },
+    {
+      "rule": "Rule 6: If a player lands on a tile after an action, they don't have the new tile's action applied on them."
+    }
+  ]
+}

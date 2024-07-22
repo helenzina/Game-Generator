@@ -1,0 +1,224 @@
+{
+  "game": {
+    "players": 4,
+    "board_size": 40,
+    "board_type": "limited_range",
+    "dice_number": 1,
+    "initial_player_points": 0,
+    "rounds": 0
+  },
+  "tiles": [
+    {
+      "index": 0,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 1,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 2,
+      "value": 6,
+      "parameter": "simple"
+    },
+    {
+      "index": 3,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 4,
+      "value": 3,
+      "parameter": "simple"
+    },
+    {
+      "index": 5,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 6,
+      "value": 7,
+      "parameter": "simple"
+    },
+    {
+      "index": 7,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 8,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 9,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 10,
+      "value": -5,
+      "parameter": "simple"
+    },
+    {
+      "index": 11,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 12,
+      "value": -5,
+      "parameter": "simple"
+    },
+    {
+      "index": 13,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 14,
+      "value": 12,
+      "parameter": "simple"
+    },
+    {
+      "index": 15,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 16,
+      "value": 5,
+      "parameter": "simple"
+    },
+    {
+      "index": 17,
+      "value": -9,
+      "parameter": "simple"
+    },
+    {
+      "index": 18,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 19,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 20,
+      "value": 11,
+      "parameter": "simple"
+    },
+    {
+      "index": 21,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 22,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 23,
+      "value": -8,
+      "parameter": "simple"
+    },
+    {
+      "index": 24,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 25,
+      "value": 4,
+      "parameter": "simple"
+    },
+    {
+      "index": 26,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 27,
+      "value": 7,
+      "parameter": "simple"
+    },
+    {
+      "index": 28,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 29,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 30,
+      "value": -12,
+      "parameter": "simple"
+    },
+    {
+      "index": 31,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 32,
+      "value": -6,
+      "parameter": "simple"
+    },
+    {
+      "index": 33,
+      "value": 5,
+      "parameter": "simple"
+    },
+    {
+      "index": 34,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 35,
+      "value": 3,
+      "parameter": "simple"
+    },
+    {
+      "index": 36,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 37,
+      "value": -11,
+      "parameter": "simple"
+    },
+    {
+      "index": 38,
+      "value": 0,
+      "parameter": "simple"
+    },
+    {
+      "index": 39,
+      "value": 0,
+      "parameter": "simple"
+    }
+  ],
+  "cards": [],
+  "rules": [
+    {
+      "rule": "Rule 1: There are some positions that move you back and some others that get you closer to the finishing line."
+    },
+    {
+      "rule": "Rule 2: If you're out of bounds, you'll be sent to the position of the remaining amount of dice's roll."
+    },
+    {
+      "rule": "Rule 3: The first who gets to the exact end of the board is the winner."
+    }
+  ]
+}
