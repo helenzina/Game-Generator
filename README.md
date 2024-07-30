@@ -19,7 +19,7 @@ This project was built with the following:
  ## About The Project
  
 <p align="center">
-<img src="https://github.com/helenzina/Game-Generator/blob/main/run.gif"  title="run"/>
+<img src="https://github.com/helenzina/Game-Generator/blob/main/screenshots/run.gif"  title="run"/>
 </p>
 
 The Board Game Generator project is a versatile tool empowers users to create unique and customizable board games with minimal effort. Designed with flexibility in mind, the Board Game Generator leverages the factory design pattern, allowing for extensive customization and reusability.
@@ -117,34 +117,6 @@ To run Game Generator, follow these steps:
 
 In the Board Game Generator, JSON (JavaScript Object Notation) is used to define and save the game specifications. JSON is a lightweight data-interchange format that is easy to read and write for humans and easy to parse and generate for machines. It uses name/value pairs and arrays to represent data.
 
-Here is a brief overview of the JSON structure used in the project:
-
-JSON Elements:
-
-1. game: Contains general game settings.
-   - players: The number of players in the game.
-   - board_size: The number of tiles on the game board.
-   - board_type: The type of board (e.g., "endless" or "limited").
-   - dice_number: The number of dice used in the game.
-   - initial_player_points: The initial points each player starts with.
-   - rounds: The number of rounds for the game.
-
-2. tiles: An array of tile objects, each representing a tile on the game board.
-   - index: The position of the tile on the board.
-   - stat: The type of the tile (e.g., "start", "red", "card").
-   - parameter: The effect triggered by the tile (e.g., "points", "tile").
-   - value: The value associated with the tile effect (e.g., points gained or lost).
-
-3. cards: An array of card objects, each representing a card in the game.
-   - id: The unique identifier for the card.
-   - message: The message displayed when the card is drawn.
-   - parameter: The effect triggered by the card (e.g., "steal_points", "start").
-   - value: The value associated with the card effect (e.g., points gained or lost).
-
-4. rules: An array of rule objects, each defining a specific rule for the game.
-   - rule: The text of the rule.
-
-
 <table>
   <tr>
     <td>
@@ -161,6 +133,35 @@ JSON Elements:
     </td>
 </tr>
 </table>
+
+Here is a brief overview of the JSON structure used in the project:
+
+JSON Elements:
+
+1. **game**: Contains general game settings.
+   - players: The number of players in the game.
+   - board_size: The number of tiles on the game board.
+   - board_type: The type of board (e.g., "endless" or "limited").
+   - dice_number: The number of dice used in the game.
+   - initial_player_points: The initial points each player starts with.
+   - rounds: The number of rounds for the game.
+
+2. **tiles**: An array of tile objects, each representing a tile on the game board.
+   - index: The position of the tile on the board.
+   - stat: The type of the tile (e.g., "start", "red", "card").
+   - parameter: The effect triggered by the tile (e.g., "points", "tile").
+   - value: The value associated with the tile effect (e.g., points gained or lost).
+
+3. **cards**: An array of card objects, each representing a card in the game.
+   - id: The unique identifier for the card.
+   - message: The message displayed when the card is drawn.
+   - parameter: The effect triggered by the card (e.g., "steal_points", "start").
+   - value: The value associated with the card effect (e.g., points gained or lost).
+
+4. **rules**: An array of rule objects, each defining a specific rule for the game.
+   - rule: The text of the rule.
+
+
 
 ### Generalized Class Diagram
 The class diagram illustrates the relationships between various classes in the project. 
@@ -188,25 +189,31 @@ Here's a detailed explanation of the relationships and interactions:
 
 Here are some examples of the game generator running (endless board):
 
-<table>
+<table align="center">
   <tr>
     <td>
-    Available game choices
+    Available game choices <br>
      <img src="https://github.com/helenzina/Game-Generator/blob/main/screenshots/choices.png" title="choices"/>
     </td>
+  </tr>
+ <tr>
     <td>
-    During gameplay
+    During gameplay <br>
      <img src="https://github.com/helenzina/Game-Generator/blob/main/screenshots/play.png" title="play"/>
     </td>
+ </tr>
+ <tr>
     <td>
-    Gameplay state
+    Gameplay state <br>
      <img src="https://github.com/helenzina/Game-Generator/blob/main/screenshots/state.png" title="state"/>
     </td>
+ </tr>
+ <tr>
     <td>
-    Winner declaration
+    Winner declaration <br>
      <img src="https://github.com/helenzina/Game-Generator/blob/main/screenshots/winner.png" title="winner"/>
     </td>
-</tr>
+ </tr>
 </table>
 
  
@@ -269,4 +276,4 @@ If you have any questions or suggestions, feel free to reach out to us:
 
 The resources that helped us through this whole process are mentioned in the bibliography of our report.
 
-For more information, read the english version of our report (**report en.pdf**).
+For more information, read the english version of our report (**report en.pdf**) in the **reports** folder.
