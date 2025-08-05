@@ -69,11 +69,9 @@ The Board Game Generator allows you to:
  
 <p>Please follow the following steps for successful installation:</p>
 
-1. Install <a href="https://www.jetbrains.com/idea/download/?section=windows">IntelliJ Community IDEA</a>. 
-   
-2. Clone the repo
+1. **Clone the repo**.
    ```sh
-   gh repo clone helenzina/Game-Generator
+   git clone https://github.com/helenzina/Game-Generator
    ```
 
 ## Features
@@ -89,14 +87,10 @@ The Board Game Generator allows you to:
 
 ### Using IntelliJ Community IDEA
 
-To run Game Generator, follow these steps:
-
 Open the folder of your local repository in IntelliJ Community IDEA and select a version of JDK for the compiler to run it.
 
 
 ### Using Visual Studio Code
-
-To run Game Generator, follow these steps:
 
 1. Open the folder of your local repository in Visual Studio Code and make sure you have the **Java** extensions installed. 
 
@@ -166,7 +160,9 @@ JSON Elements:
 ### Generalized Class Diagram
 The class diagram illustrates the relationships between various classes in the project. 
 
+<p align="center">
 <img src="https://github.com/helenzina/Game-Generator/blob/main/screenshots/class_diagram.png" title="class_diagram"/>
+</p>
 
 Here's a detailed explanation of the relationships and interactions:
 
@@ -182,7 +178,6 @@ Here's a detailed explanation of the relationships and interactions:
 3. Dependency Relationship:
 
    - Main, Game and Validate: There is a dependency relationship between the Main and Game classes with the Validate class. This indicates that the Main and Game classes relies on the Validate class to perform certain validation checks. The Validate class provides methods to ensure the integrity and correctness of game states and actions.
-
 
 
 ### Running 
